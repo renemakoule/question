@@ -172,7 +172,7 @@ export default function Component() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <div className="p-6 space-y-4 h-[280px] overflow-y-auto scrollbar-hide">
-                <div className="fixed top-0 flex justify-between items-center space-x-48 z-10 bg-white">
+                <div className="fixed top-0 w-[90%] flex justify-between items-center space-x-2 z-10 bg-white">
                   <h3 className="text-xl font-bold">Recent Questions</h3>
                   <Button
                     variant="ghost"
