@@ -171,7 +171,7 @@ export default function Component() {
               exit={{ opacity: 0, y: 20, height: 0 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="p-6 space-y-4 h-[295px] overflow-y-auto scrollbar-hide">
+              <div className="p-6 space-y-4 h-[280px] overflow-y-auto scrollbar-hide">
                 <div className="fixed top-0 flex justify-between items-center space-x-48 z-10 bg-white">
                   <h3 className="text-xl font-bold">Recent Questions</h3>
                   <Button
@@ -213,7 +213,7 @@ export default function Component() {
               exit={{ opacity: 0, y: 20, height: 0 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <Card className="bg-gradient-to-br from-rose-100 via-pink-100 to-violet-200 shadow-lg">
+              <Card className="bg-gradient-to-br from-rose-100 via-pink-100 to-violet-200 h-[280px] shadow-lg">
                 <CardHeader>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4">
@@ -232,7 +232,7 @@ export default function Component() {
                       onClick={toggleAddResponse}
                       className="rounded-full"
                     >
-                      <X className="h-6 w-6" />
+                      <X className="h-4 w-4" />
                       <span className="sr-only">Close</span>
                     </Button>
                   </div>
